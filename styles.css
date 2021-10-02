@@ -90,7 +90,6 @@ p {
   right: 30%;
 }
 
-/* Features Section */
 
 /* bio */
 .wrapper-bio {
@@ -98,12 +97,13 @@ p {
 
 }
 
-.text-block {
+
+.text-bio {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   bottom: 21%;
-  right: 20%;
-  left: 53%;
+  right: 8%;
+  left: 52%;
   color: white;
   padding: 3% 2% 2% 2%;
 
@@ -115,11 +115,28 @@ p {
   font-weight: 200;
 }
 
+
+/* news */
+#News {
+  padding: 10% 0 6% 0;
+  color: #fff;
+
+}
+.text-block{
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  left: 2%;
+  color: white;
+  padding: 3% 3% 3% 2%;
+}
+
+.news-column {
+  padding: 3% 2%;
+}
+
 /* Testimonial Section */
 
-#testimonials {
-  background-color: #ef8172;
-}
 
 .testimonial-text {
   font-size: 3rem;
@@ -134,7 +151,6 @@ p {
 
 
 #press {
-  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -143,22 +159,27 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
+/* news */
+#News {
+  padding: 10% 0 6% 0;
+  color: #fff;
 
-#pricing {
-  padding: 100px;
+}
+.text-block{
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  left: 2%;
+  color: white;
+  padding: 3% 3% 3% 2%;
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
+.news-column {
   padding: 3% 2%;
 }
 
-/* CTA Section */
+
+/*Music */
 .button{
   align-items: center;
 }
@@ -182,3 +203,24 @@ p {
     transform: rotate(0);
   }
 }
+
+@media (max-width: 1000px) {
+.wrapper-bio {
+  padding: 0.5%;
+
+
+}
+.text-bio{
+  bottom: 1%;
+  right: 1%;
+  left: 1%;
+  padding: 0.5%;
+  }
+  .text-bio{
+    font-size: 1rem;
+  }
+
+  .wrapper-navbar{
+    position: static;
+
+  }
